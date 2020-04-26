@@ -1,0 +1,36 @@
+{
+	"name": "commaseperate",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "InputAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "textfile.txt",
+				"container": "test123"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "fname",
+				"type": "String"
+			},
+			{
+				"name": "lname",
+				"type": "String"
+			},
+			{
+				"name": "address",
+				"type": "String"
+			}
+		]
+	}
+}
