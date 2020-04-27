@@ -43,7 +43,7 @@
 						"referenceName": "carsFile",
 						"type": "DatasetReference",
 						"parameters": {
-							"fileName": "casrs.csv"
+							"fileName": "cars.csv"
 						}
 					}
 				],
