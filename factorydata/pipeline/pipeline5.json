@@ -41,13 +41,19 @@
 				"inputs": [
 					{
 						"referenceName": "carsFile",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": "casrs.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "outputcars",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": "cars"
+						}
 					}
 				]
 			}
