@@ -36,7 +36,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dbo.Cars"
+			"schema": "dbo",
+			"table": "Cars"
 		}
 	}
 }
