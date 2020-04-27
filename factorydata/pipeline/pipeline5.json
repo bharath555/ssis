@@ -43,7 +43,10 @@
 						"referenceName": "carsFile",
 						"type": "DatasetReference",
 						"parameters": {
-							"fileName": "cars.csv"
+							"fileName": {
+								"value": "@pipeline().parameters.filename",
+								"type": "Expression"
+							}
 						}
 					}
 				],
@@ -52,12 +55,20 @@
 						"referenceName": "outputcars",
 						"type": "DatasetReference",
 						"parameters": {
-							"fileName": "cars"
+							"fileName": {
+								"value": "@pipeline().parameters.filename",
+								"type": "Expression"
+							}
 						}
 					}
 				]
 			}
 		],
+		"parameters": {
+			"filename": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
