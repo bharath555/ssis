@@ -1,0 +1,12 @@
+{
+	"name": "inpputdataAzureDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSampleDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
