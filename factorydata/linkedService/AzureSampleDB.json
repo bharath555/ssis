@@ -1,0 +1,12 @@
+{
+	"name": "AzureSampleDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=hbk.database.windows.net;initial catalog=azuresampledb;user id=bharat",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkhCS0ZBQ1RPUllfMzA2MDMxMjItNzc1My00YjM1LWEwYzItNzc2MzQzYzcxYmU1Ig0KfQ=="
+		}
+	}
+}
