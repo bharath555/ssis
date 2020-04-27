@@ -1,6 +1,7 @@
 {
 	"name": "pipeline3",
 	"properties": {
+		"description": "this pipeline extracts data from csv file and load it to sql table",
 		"activities": [
 			{
 				"name": "uppercase",
