@@ -17,7 +17,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "uppercase",
+						"referenceName": "uppercase1",
 						"type": "DataFlowReference"
 					},
 					"compute": {
