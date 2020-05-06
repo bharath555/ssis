@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "listalldatabseinserver",
+				"name": "listalldatabseinazureserver",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -32,7 +32,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "listalldatabseinserver",
+						"activity": "listalldatabseinazureserver",
 						"dependencyConditions": [
 							"Succeeded"
 						]
