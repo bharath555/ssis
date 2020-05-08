@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText2",
+	"name": "cars_csv_file",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "carsinputAzureBlobStorage1",
