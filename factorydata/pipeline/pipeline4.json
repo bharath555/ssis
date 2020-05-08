@@ -32,9 +32,6 @@
 							"type": "DelimitedTextReadSettings"
 						}
 					},
-					"sink": {
-						"type": "AzureSqlSink"
-					},
 					"enableStaging": false
 				},
 				"inputs": [
@@ -43,15 +40,6 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"fileName": "planes.csv"
-						}
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "carsTable",
-						"type": "DatasetReference",
-						"parameters": {
-							"tablename": "planes"
 						}
 					}
 				]
@@ -69,10 +57,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"source": {
-						"type": "AzureSqlSource",
-						"queryTimeout": "02:00:00"
-					},
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
@@ -86,15 +70,6 @@
 					},
 					"enableStaging": false
 				},
-				"inputs": [
-					{
-						"referenceName": "carsTable",
-						"type": "DatasetReference",
-						"parameters": {
-							"tablename": "cars"
-						}
-					}
-				],
 				"outputs": [
 					{
 						"referenceName": "carsFile",
