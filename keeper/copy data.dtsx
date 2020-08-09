@@ -11,20 +11,20 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{0263F703-B1DD-4BCF-8058-9ECB6D551207}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{7FCA92E4-9870-4AA7-9487-F2EC51E3EAB5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Copy data from blob to DL"
+      DTS:refId="Package\Copy_data _from_blob_to_DL"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{50523E77-01CB-4456-A958-9DBA44459571}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Copy data from blob to DL"
+      DTS:ObjectName="Copy_data _from_blob_to_DL"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -53,7 +53,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{4C9EC7D8-51D4-4900-8871-8E703A47C9C6}"
-      DTS:From="Package\Copy data from blob to DL"
+      DTS:From="Package\Copy_data _from_blob_to_DL"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Execute function" />
@@ -71,8 +71,8 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="204,42.6666666666667"
-          Id="Package\Copy data from blob to DL"
+          Size="221.333333333334,42.6666666666667"
+          Id="Package\Copy_data _from_blob_to_DL"
           TopLeft="84.5833320729434,30.5614040840146" />
         <NodeLayout
           Size="158.666666666667,42.6666666666667"
@@ -80,30 +80,18 @@
           TopLeft="118.333331570029,105.824563395394" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="186.583332072943,73.2280707506812">
+          TopLeft="196.458331821486,73.2280707506813">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11.0833328304191,32.5964926447124"
+              EndConnector="0,32.5964926447127"
               Start="0,0"
-              End="11.0833328304191,25.0964926447124">
+              End="0,25.0964926447127">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.2982463223562" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.2982463223562"
-                    Point2="0,16.2982463223562"
-                    Point3="4,16.2982463223562" />
-                  <mssgle:LineSegment
-                    End="7.08333283041912,16.2982463223562" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7.08333283041912,16.2982463223562"
-                    Point2="11.0833328304191,16.2982463223562"
-                    Point3="11.0833328304191,20.2982463223562" />
-                  <mssgle:LineSegment
-                    End="11.0833328304191,25.0964926447124" />
+                    End="0,25.0964926447127" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
